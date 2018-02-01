@@ -1,4 +1,4 @@
-
+<script>
 // Rock Paper Scissors
 
 // randomly return Rock, Paper or Scissors
@@ -38,13 +38,13 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function game() {
-  const playerSelection = 'rock'
-
   for (var i=0; i < 5; i++) {
-    console.log(playRound(playerSelection, computerPlay()))
+    var playerSelection = prompt("Rock, Paper, or Scissors?");
+    console.log(playRound(playerSelection, computerPlay()));
+
   }
 
 }
 
 
-game();
+</script>
